@@ -1,0 +1,8 @@
+# will have compiled files and executables
+/bin/
+
+# Other files
+*.xml
+*.dat
+*sublime*
+.DS_Store
