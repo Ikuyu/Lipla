@@ -4,7 +4,7 @@
 
 Lipla helps you to accomplish your goals; the goals you want to achieve before you die and leave this so called planet earth.
 
-To accomplish a goal, you'll have to translate it into one or more actions. Every action is accomplished through a series of agreements. Agreements go together with alerts. Alerts are the things you should avoid doing, in order to reach your goals.
+To accomplish a goal, you'll need to translate it into one or more actions. Every action is accomplished through a series of agreements. Agreements go together with alerts. Alerts are the things you should avoid doing in order to reach your goals.
 
 Command line options:
 
@@ -70,8 +70,6 @@ This command will ask for a description, if it is not given.
 
 ```
 git clone https://github.com/Ikuyu/Lipla
-nimble install noise
-nimble install docopt
 nimble macesc
 ```
 
@@ -79,7 +77,7 @@ There's a nimble task to cross compile Lipla for Windows as well (winesc).
 
 **Windows 10**
 
-The ANSI escape code registry key must be enabled for Lipla to work on windows as well. This can be done by executing the following command in the Command Prompt:
+The ANSI escape code registry key must be enabled for Lipla to work on windows as well. This can be done by executing this instruction in the Command Prompt:
 
 <pre>reg add HKEY_CURRENT_USER\Console /v VirtualTerminalLevel /t REG_DWORD /d 0x00000001 /f
 </pre>
