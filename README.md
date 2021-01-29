@@ -81,7 +81,7 @@ There's a nimble task to cross compile Lipla for Windows as well (winesc).
 
 **Windows 10**
 
-To use Lipla on Windows, the ANSI escape code registry key must be enabled. This can be done, by running the following instruction in the Command Prompt:
+To use Lipla on Windows the ANSI escape code registry key must be enabled. This can be done by running the following instruction in the Command Prompt:
 
 <pre>reg add HKEY_CURRENT_USER\Console /v VirtualTerminalLevel /t REG_DWORD /d 0x00000001 /f
 </pre>
