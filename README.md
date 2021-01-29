@@ -14,10 +14,10 @@ Command line options:
 Options:
    -x, --export    Exports a life plan to xml
    -h, --help      Prints help information
-   -v, --version   Prins version information
+   -v, --version   Prints version information
 </pre>
 
-By default your life plan will be saved in the user directory. Filename: 'lipla.dat'.
+By default your life plan will be saved in your user directory. Filename: 'lipla.dat'.
 
 The maximum number of allowed items is 7. However, you're not advised to work with more than 3 goals at once.
 
@@ -35,7 +35,7 @@ Use 's' or 'show' to print a list of all goals, actions, agreements, alerts and/
 - ```add alert <goal number> <action number> <agreement number> [description]```<br/>
 - ```add result <goal number> [description]```
 
-This command will ask for a description, if it is not given.
+This command will ask for a description if it is not already given.
 
 *Commands used for showing items*
 
@@ -53,7 +53,7 @@ This command will ask for a description, if it is not given.
 - ```update alert <goal number> <action number> <agreement number> <alert number> [description]```<br/>
 - ```update result <goal number> <result number> [description]```
 
-This command will ask for a description, if it is not given.
+This command will ask for a description if it is not already given.
 
 *Commands used for removing items*
 
@@ -68,7 +68,7 @@ The commands follow the usual *action verb* pattern (show goals), but the revers
 **Compiling from source**
 
 1. Navigate to the folder where you want to compile this project.<br>
-2. Execute the commands below (if you are on macOS):
+2. Execute the following commands (if you are on macOS):
 
 ```
 git clone https://github.com/Ikuyu/Lipla
