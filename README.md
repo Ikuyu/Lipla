@@ -17,9 +17,9 @@ Options:
    -v, --version   Prins version information
 </pre>
 
-By default, a life plan will be saved in your user directory. Filename: 'lipla.dat'.
+By default your life plan will be saved in the user directory. Filename: 'lipla.dat'.
 
-The maximum number of allowed items is 7. However, it's not advised to work on more than 3 goals at the same time.
+The maximum number of allowed items is 7. However, you're not advised to work with more than 3 goals at once.
 
 **Commands**
 
